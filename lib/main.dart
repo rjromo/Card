@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 
-
-
 void main() => runApp(MyApp());
-
 
 class MyApp extends StatelessWidget {
   @override
@@ -33,6 +30,13 @@ class MyApp extends StatelessWidget {
                       letterSpacing: 2.5,
                       color: Colors.white,
                       fontWeight: FontWeight.bold)),
+              SizedBox(
+                height: 20.0,
+                width: 250.0,
+                child: Divider(
+                  color: Colors.lightBlueAccent[100],
+                ),
+              ),
               Card(
                 margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 10.0),
                 child: ListTile(
@@ -74,4 +78,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
